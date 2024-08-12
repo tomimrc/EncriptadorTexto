@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header class="header">
+        <p class="mainIcon">a</p>
+    </header>
+    <main class="main">
+        <section class="sectionLeft">
+            <div class="textContainer">
+                <h1>Encriptador de texto</h1>
+                <textarea name="texto" id="textoIzquierda" class="textArea" placeholder="Ingrese el texto aqui" ></textarea>
+            </div>
+            <div class="buttonContainer">
+                <div class="alertaDiv">
+                    <img src="./image.png" alt="alerta imagen" class="alerta"> 
+                    <p>Solo letras minusculas y sin acentos</p>
+                </div>
+                <div class="buttonDiv">
+                    <button class="btn encriptar" id="btnEncriptar">Encriptar</button>
+                    <button class="btn desencriptar" id="btnDesencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section class="sectionRight">
+            <p class="textoEncriptado " id="textoEncriptado">Ningun texto fue encontrado. Por favor ingresa el texto que deseas encriptar/desencriptar</p>
+            <button class="btn copiar" id="btnCopiar">COPIAR</button>
+        </section>
+    </main>
+    <footer class="footer">Tomas garcia</footer>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>

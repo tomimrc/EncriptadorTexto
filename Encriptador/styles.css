@@ -1,0 +1,164 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{
+    background-color: #E9ECF8;
+
+}
+
+.header{
+    
+    width: 100%;
+    height: fit-content;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.mainIcon{
+    color: #0A3871;
+    font-size: 50px;
+    
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    padding: 32px;
+    gap: 30px;
+}
+
+.sectionLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    height: 100%;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.sectionRight{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 32px;
+    width: 35%;
+    height: 100%;
+    border-radius: 20px;
+}
+.textContainer{
+    height: 100%;
+    
+
+}
+.textArea{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    background-color: #E9ECF8;
+    border: none;
+    font-size: 32px;
+    outline: none;
+}
+
+
+
+.buttonContainer{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start
+}
+
+.buttonDiv{
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    
+    padding: 30px 120px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.encriptar{
+    background-color:#0A3871;
+    color: white;
+
+}
+.desencriptar{
+    background-color:#D8DFE8;
+    border:1px solid #0A3871;
+}
+
+.textoEncriptado{
+    display: flex;
+    font-size: 22px;
+
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.vacio{
+    color: red;
+    font-size: 30px;
+    font-variant-caps: titling-caps;
+}
+
+.alerta{
+    width: 24px;
+    height: 24px;
+}
+
+.alertaDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width:1000px) {
+    .header{
+        padding: 0;
+        margin: 0;
+    }
+    .main{
+        flex-direction: column;
+        padding: 0px;
+        max-width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .sectionLeft{
+        padding: 16px;
+        width: 100%;
+        
+    }
+    .sectionRight{
+        width: 100%;
+        /* align-items: center; */
+    }
+
+    .btn{
+        padding: 15px 45px;
+    }
+    .copiar{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
